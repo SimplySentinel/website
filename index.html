@@ -3,46 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoFinder - Roblox Chrome Extension</title>
+    <title>Illumina - Roblox User Scanner</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="RoFinder Logo" id="logo">
-        <h1>RoFinder</h1>
+        <h1>Illumina</h1>
+        <p>Scan Roblox users to see who is online</p>
     </header>
     <main>
-        <section id="intro">
-            <h2>Discover Roblox Players with Ease</h2>
-            <p>RoFinder is a Chrome extension that helps you find and track Roblox players quickly and efficiently.</p>
-            <button id="download-btn">Download Extension</button>
+        <section id="user-scan">
+            <h2>Scan Users</h2>
+            <input type="text" id="username" placeholder="Enter Roblox Username">
+            <button onclick="scanUser()">Scan</button>
+            <div id="user-result">
+                <!-- User results will appear here -->
+            </div>
         </section>
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Search for Roblox players by username</li>
-                <li>Track player activity</li>
-                <li>Get notifications on player updates</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or feedback, feel free to reach out:</p>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+        <section id="game-scan">
+            <h2>Find Game</h2>
+            <input type="text" id="placeid" placeholder="Enter Place ID">
+            <button onclick="scanPlace()">Find Game</button>
+            <div id="game-result">
+                <!-- Game results will appear here -->
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 RoFinder. All rights reserved.</p>
-    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
