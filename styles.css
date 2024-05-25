@@ -1,120 +1,66 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: #24292e;
-    color: white;
-}
-
-#logo {
-    height: 50px;
-    margin-right: 20px;
-}
-
-h1 {
-    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 main {
+    width: 80%;
+    max-width: 600px;
+    background: white;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#intro {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f6f8fa;
+section {
+    margin-bottom: 20px;
 }
 
-#intro h2 {
-    font-size: 2em;
-    margin: 0 0 10px 0;
-}
-
-#intro p {
-    font-size: 1.2em;
-}
-
-#download-btn {
-    padding: 10px 20px;
-    font-size: 1em;
-    color: white;
-    background-color: #28a745;
-    border: none;
-    cursor: pointer;
-}
-
-#download-btn:hover {
-    background-color: #218838;
-}
-
-#features {
-    padding: 20px;
-}
-
-#features h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#features ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#features li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-#contact {
-    padding: 20px;
-    background-color: #f6f8fa;
-}
-
-#contact h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#contact-form {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact-form label {
-    margin: 10px 0 5px 0;
-}
-
-#contact-form input, #contact-form textarea {
+input[type="text"] {
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-#contact-form button {
+button {
     padding: 10px 20px;
-    font-size: 1em;
-    color: white;
     background-color: #007bff;
+    color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-#contact-form button:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #24292e;
-    color: white;
+#user-result, #game-result {
+    margin-top: 10px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
